@@ -1,0 +1,487 @@
+* {
+    margin: 0px;
+}
+
+
+
+.bakerymain {
+    background-image: url(./images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    background-color: rgb(0, 0, 0, .5);
+    z-index: 11;
+    padding: 10px;
+
+}
+
+.navbarimge img {
+    width: 200px;
+    float: left;
+    margin-left: 50px;
+}
+
+.links {
+    float: right;
+}
+
+.links li {
+    float: left;
+    margin-right: 20px;
+    padding-top: 20px;
+    color: fff;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+}
+
+.homesection {
+    text-align: center;
+
+}
+
+.p1homesection p {
+    color: #fff;
+    padding-top: 250px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.h1homesection h1 {
+    color: #fff;
+    margin: 20px;
+    font-family: "Alegreya";
+    font-size: 68px;
+    font-weight: 400;
+}
+
+.p2homesection p {
+    color: #fff;
+    margin: 20px 10px 10px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+
+.p3homesection p {
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+
+.btn {
+    padding: 15px 28px;
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+
+}
+
+.btn1 {
+    background-color: #8e7754;
+    margin-right: 2.5px;
+    border-color: #8e7754;
+    padding: 15px 28px;
+}
+
+.btn2 {
+    margin-left: 2.5px;
+    padding: 15px 28px;
+}
+
+.page2 {
+
+    height: 100vh;
+
+}
+
+
+.pic {
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+
+
+}
+
+.pic img {
+    width: 75%;
+    padding-left: 150px;
+
+}
+
+.info {
+
+    float: left;
+    width: 50%;
+    padding-top: 150px;
+
+}
+
+.clr {
+    clear: both;
+}
+
+.info h2 {
+    padding: 30px;
+}
+
+.paragraph1 {
+    margin-bottom: 15px;
+    margin-left: 30px;
+
+}
+
+.paragraph2 {
+    margin-bottom: 15px;
+    margin-left: 30px;
+
+}
+
+.paragraph3 {
+    margin-bottom: 15px;
+    margin-left: 30px;
+
+}
+
+.data1 {
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.logo1 {
+    float: left;
+}
+
+.about1 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.clr {
+    clear: both;
+}
+
+.logo1 img {
+    width: 50px;
+}
+
+.data2 {
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.logo2 {
+    float: left;
+}
+
+.about2 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.clr {
+    clear: both;
+}
+
+.logo2 img {
+    width: 50px;
+}
+
+.data3 {
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.logo3 {
+    float: left;
+}
+
+.about3 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.clr {
+    clear: both;
+}
+
+.logo3 img {
+    width: 50px;
+}
+
+.data4 {
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.logo4 {
+    float: left;
+}
+
+.about4 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.clr {
+    clear: both;
+}
+
+.logo4 img {
+    width: 50px;
+}
+
+.location {
+    height: 100vh;
+
+}
+
+.locationinfo {
+    float: left;
+    width: 50%;
+    margin-top: 150px;
+}
+
+.locationinfo h2 {
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.locationinfo1 {
+    margin-left: 150px;
+    margin-right: 20px;
+}
+
+.locationinfo2 {
+    margin-top: 30px;
+}
+
+.locationimg {
+    float: left;
+    width: 50%;
+    margin-top: 80px;
+
+}
+
+.clr {
+    clear: both;
+}
+
+.locationimg img {
+    width: 80%;
+}
+
+.top {
+    text-align: center;
+}
+
+.top h2 {
+    margin-bottom: 20px;
+}
+
+.top p {
+    margin-bottom: 50px;
+}
+
+.prouducts {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.product1 {
+    width: 33.333%;
+    float: left;
+
+}
+
+.clr {
+    clear: both;
+}
+
+.product1 img {
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.product1 h3 {
+    margin-bottom: 30px;
+}
+
+.contact {
+
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+}
+
+.map {
+    float: left;
+    width: 50%;
+    margin-top: 80px;
+}
+
+.clr {
+    clear: both;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.contact h2 {
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.contact p {
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+.contact h5 {
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.contactimg {
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 15px;
+
+}
+
+.contactinfo1 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.clr {
+    clear: both;
+}
+
+.lastpage {
+    margin-top: 100px;
+}
+
+.about {
+    float: left;
+    width: 25%;
+}
+
+.clr {
+    clear: both;
+}
+
+.why {
+    float: left;
+}
+
+.clr {
+    clear: both;
+}
+
+.toppart {
+    background-color: #403D38;
+    padding-top: 50px;
+    color: fff;
+    padding-bottom: 50px;
+}
+
+.words {
+    margin-bottom: 3px;
+    margin-top: 20px;
+    color: #969696;
+}
+
+.why img {
+    margin-top: 17px;
+    margin-left: 0px;
+    margin-right: 3px;
+
+}
+
+.toppart1 h3 {
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.toppart1 p {
+    margin-left: 100px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: #969696;
+}
+
+hr {
+    margin-right: 30px;
+    margin-left: 15px;
+    color: rgb(238, 238, 236, .5);
+
+}
+
+.highlight {
+    margin-left: 15px;
+}
+
+.open h3 {
+
+    margin-left: 15px;
+}
+
+.bottompart {
+    background-color: #353330;
+    text-align: center;
+}
+
+.bakeryimg {
+
+    text-align: center;
+    padding-top: 100px;
+}
+
+.bottompart p {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #969696;
+
+}
+
+.icons img {
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 40px;
+    background-color: #403D38;
+    border-radius: 100%;
+
+}
