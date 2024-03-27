@@ -30,7 +30,7 @@ body {
 .nav-logo {
     width: 13%;
     float: left;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .nav-logo img {
@@ -44,8 +44,13 @@ body {
 .nav-links li {
     list-style-type: none;
     padding: 15px;
-    padding-top: 30px;
+    padding-top: 15px;
     float: left;
+}
+
+.togglemenu{
+width: 40px;
+display: none;
 }
 
 .nav-links a {
@@ -227,7 +232,7 @@ body {
 .blog-cap{
     width: 50%;
     float: left;
-    text-align: center;
+    /* text-align: center; */
     font-size: 18px;
 }
 .blog-cap p{
@@ -256,7 +261,7 @@ body {
     border-radius: 50%;
 }
 
-.blog-data {
+.blog .data {
     float: left;
 }
 
@@ -310,3 +315,165 @@ body {
 }
 
 /* end footer */
+/* media query for meduim screen */
+
+@media screen and (min-width:700px) and (max-width:1000px){
+    .footer-row{
+        width: 49.5%;
+        float: left;
+        padding: 10px;
+    }
+
+    .blog-cap{
+        width: 49.5%;
+        float: left;
+        /* text-align: center; */
+        font-size: 18px;
+        
+    }
+
+    .blog-map{
+        width: 49.5%;
+        float: left;
+        padding-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .meal {
+        width: 48%;
+        text-align: center;
+        float: left;
+    }
+
+    .location-cap {
+        width: 50%;
+        float: left;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 50px;
+        margin-right: 20px;
+    
+    }
+
+    .location-img {
+        width: 48%;
+        float: right;
+    }
+
+    .about-cap {
+        width: 50%;
+        float: right;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 50px;
+        margin-right: 20px;
+    
+    }
+
+    .about-img {
+        width: 48%;
+        float: left;
+    }
+
+    .nav-links li {
+        list-style-type: none;
+        padding: 15px;
+        padding-top: 15px;
+        float: left;
+        display: none;
+    }
+
+    .togglemenu{
+        width: 40px;
+        display:block;
+        margin-top: 10px;
+    }
+    
+    .nav-logo {
+        width: 25%;
+        float: left;
+        /* margin-top: 10px; */
+    }
+
+}
+
+
+
+@media screen and (max-width:700px){
+    .footer-row{
+        width: 99.5%;
+        float: left;
+        padding: 10px;
+    }
+
+    .blog-cap{
+        width: 100%;
+        float: left;
+        /* text-align: center; */
+        font-size: 18px;
+        
+    }
+
+    .blog-map{
+        width: 100%;
+        float: left;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .meal {
+        width: 98%;
+        text-align: center;
+        float: center;
+    }
+
+    .location-img {
+        width: 98%;
+        float: right;
+    }
+
+    .location-cap {
+        width: 98%;
+        float: left;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+
+    .about-img {
+        width: 98%;
+        float: left;
+    }
+
+    .about-cap {
+        width: 98%;
+        float: right;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+
+    .nav-links li {
+        list-style-type: none;
+        padding: 15px;
+        padding-top: 15px;
+        float: left;
+        display: none;
+    }
+
+    .togglemenu{
+        width: 40px;
+        display:block;
+        margin-top: 10px;
+    }
+
+    .nav-logo {
+        width: 50%;
+        float: left;
+        /* margin-top: 10px; */
+    }
+   
+}
